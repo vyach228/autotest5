@@ -13,7 +13,7 @@ public class SmokeTest {
     @Before
     public void precondition() {
 
-        browser = new EdgeDriver();
+        browser = new ChromeDriver();
         browser.manage().window().maximize();
         browser.get("https://ru.wikipedia.org");
     }
